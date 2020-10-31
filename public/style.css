@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    background: #1c1c1b;
+    color: rgb(148, 118, 118);
+}
+
+form{
+    text-align: center;
+}
+
+#v{
+    color: yellow;
+}
+
+
+div.css{
+    background: grey;
+    color: #1c1c1b;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    transition: 0.4s all ease;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+
+button:hover{
+    transition: 0.4s all ease;
+    font-size: 30px;
+}
+
+/*h1:hover{
+    font-family: 'Montserrat';
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: ' YEET SOME EASTER EGG XD';
+}*/
+
+.rainbow {
+  /* Font options */
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 40px;
+
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
+}
