@@ -32,6 +32,9 @@ function revealFonts(){
                         </div>
                     <br>
                     <br>
+                    Preview: <p style="font-family: ${data.items[randomFont].family}">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea tempora facere, porro nulla, repellendus sunt repudiandae, rerum obcaecati veritatis sint quis temporibus voluptatem? Porro, impedit. In sequi molestiae dolore!</p>
+                    <br>
+                    <br>
                     View on google fonts: <a href="https://fonts.google.com/?selection.family=${data.items[randomFont].family}">https://fonts.google.com/?selection.family=${data.items[randomFont].family}</a>
                     <br>
                     <br>
@@ -51,6 +54,9 @@ function revealFonts(){
                         <div class="css">
                             font-family: '${data.items[randomFont].family}', ${data.items[randomFont].category}
                         </div>
+                    <br>
+                    <br>
+                    Preview: <p style="font-family: ${data.items[randomFont].family}">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea tempora facere, porro nulla, repellendus sunt repudiandae, rerum obcaecati veritatis sint quis temporibus voluptatem? Porro, impedit. In sequi molestiae dolore!</p>
                     <br>
                     <br>
                     View on google fonts: <a href="https://fonts.google.com/?selection.family=${data.items[randomFont].family}">https://fonts.google.com/?selection.family=${data.items[randomFont].family}</a>
